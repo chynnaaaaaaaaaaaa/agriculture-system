@@ -1,3 +1,4 @@
+
 <?php
 declare(strict_types=1);
 
@@ -46,7 +47,7 @@ class Farm extends BaseModel
             (int) ($in['page'] ?? 1)
         );
     }
-
+ 
     /** One farm with all joined names (for View) plus raw IDs (for Edit). */
     public function find(int $id): ?array
     {

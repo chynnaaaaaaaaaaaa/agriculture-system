@@ -1,10 +1,7 @@
 <?php
 declare(strict_types=1);
 
-/**
- * One shared PDO connection to Supabase PostgreSQL.
- * Credentials come from the .env file / environment variables - never hard-coded.
- */
+
 class Database
 {
     private static ?PDO $pdo = null;
